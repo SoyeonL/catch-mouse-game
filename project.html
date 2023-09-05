@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Catch mouse, not bomb</title>
+        <meta charset="utf-8">
+        <style>
+            body { margin-left: 50px; }
+        </style>
+        <script src="project.js"></script>
+    </head>
+    <body onload="setup()" onkeydown="keyDowned(event)">
+        <h1>Catch mouse, not bomb</h1>
+        <canvas id="myCanvas" width="500px" height="500px" style="border: 2px solid #ebbf46"></canvas>
+        <h2>Score: <span id="score">0</span></h2>
+        <button onclick="reset()">reset</button>
+    </body>
+    
+</html>
